@@ -15,5 +15,5 @@ foreach (var value in text)
         l++;
     }
 }
-Console.WriteLine(string.Join(Environment.NewLine, result, 0, l));
+Console.Write(string.Join(Environment.NewLine, result, 0, l));
 Console.ReadKey(true);
